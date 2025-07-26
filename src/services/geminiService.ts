@@ -27,7 +27,7 @@ interface PlanResponse {
 // Real Gemini API integration via Supabase Edge Function
 export const generatePlan = async (request: PlanRequest): Promise<PlanResponse> => {
   try {
-    const response = await fetch('/functions/v1/generate-plan', {
+    const response = await fetch('https://bzfjxcvsrdgpmblyjejm.supabase.co/functions/v1/generate-plan', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
