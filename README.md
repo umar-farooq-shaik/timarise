@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+# ⏳ Timarise – Master Your Minutes, Achieve Your Mission
 
-## Project info
+> “You don't need more time. You need better timecraft.”
 
-**URL**: https://lovable.dev/projects/c274b266-f5ba-40a5-b970-2961891e4dba
+## 🚀 Inspiration
 
-## How can I edit this code?
+The idea for **Timarise** came from a personal struggle: how to make every minute of the day count toward meaningful goals, especially when juggling studies, work, and life. I wanted to create a tool that doesn't just help with time management, but **turns time into motivation**. 
 
-There are several ways of editing your application.
+Inspired by gamified productivity apps, Pomodoro timers, and goal-setting psychology, Timarise blends AI with behavioral nudges to create a **visually motivating, energy-aware roadmap** for success.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c274b266-f5ba-40a5-b970-2961891e4dba) and start prompting.
+## 🧠 What it does
 
-Changes made via Lovable will be committed automatically to this repo.
+**Timarise** is a gamified time-crafting assistant that:
 
-**Use your preferred IDE**
+- Takes your **goal**, target **duration (in months)**, and **daily available hours**
+- Uses **Gemini Flash 2.0** to generate a **custom roadmap** with:
+  - Milestones
+  - Daily tasks with break buffers
+  - Energy-based task tracking
+- Includes:
+  - ✅ Pomodoro timer per task
+  - 🔋 Energy bar (fades if skipped, grows on completion)
+  - 📈 Progress bar (color-shift from green → yellow → red)
+  - ✨ Motivational quote section and real-world stories on time
+  - 🏅 Badge generation and shareable milestones (e.g., 3-day streak)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+It’s built to be **minimalist, mobile-first**, and distraction-free.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ How I built it
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Frontend**: React (Vite) + TailwindCSS (dark/light mode toggle, custom theme with green, red, orange, and cream)
+- **AI**: Gemini Flash 2.0 via API for generating personalized roadmaps and daily tasks
+- **Timers**: Custom Pomodoro and break timers using `setInterval`
+- **UI/UX**:
+  - Gamified elements: progress/energy bars, badge unlocks
+  - Mobile-first design, with smooth transitions, hover animations
+- **Hosting**: [optional — e.g., Vercel or Netlify]
+- **No Login/Auth**: Anonymous, privacy-focused experience
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧗‍♂️ Challenges I ran into
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- Balancing **visual appeal** with **functional simplicity**
+- Ensuring **energy bar transitions** work across light/dark themes
+- Creating meaningful AI prompts to output usable daily roadmaps
+- Making Pomodoro timers work seamlessly per task
+- Avoiding bloat — keeping the experience focused and fast
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏆 Accomplishments that I'm proud of
 
-**Use GitHub Codespaces**
+- Built a **fully functional productivity tool** in a single-page app
+- Created a **clean and consistent color theme** for both light and dark mode
+- Integrated **AI-driven planning** in a motivational and non-robotic way
+- Designed the app to be **usable without login or distractions**
+- Every interaction — from sliders to badge animations — feels polished
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📚 What I learned
 
-This project is built with:
+- Effective use of TailwindCSS with dark/light theming and gamified elements
+- Prompt engineering for Gemini to deliver structured learning plans
+- Building task-based Pomodoro flows from scratch
+- Designing for **mobile-first minimalism** with **maximum utility**
+- How motivation can be coded visually — colors, streaks, energy bars
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🔮 What's next for Timarise
 
-Simply open [Lovable](https://lovable.dev/projects/c274b266-f5ba-40a5-b970-2961891e4dba) and click on Share -> Publish.
+- ✅ Add **local storage** for offline task tracking
+- 🧠 Add **AI insights** from user progress (e.g., "You're behind on week 2, reschedule?")
+- 📆 Google Calendar / Notion sync
+- 📊 Export as PDF or Trello board
+- 📱 Convert into a **PWA** (Installable Web App)
+- 💬 User streak leaderboard (anonymous)
+- 🌍 Multilingual support (starting with Hindi and Spanish)
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🕰️ _“You don’t manage time. You craft it.” — Timarise_
