@@ -1,4 +1,4 @@
-# ⏳ Timarise – Master Your Minutes, Achieve Your Mission
+# ⏳ Timarise - Master Your Minutes, Achieve Your Mission
 
 > “You don't need more time. You need better timecraft.”
 
@@ -22,9 +22,7 @@ Inspired by gamified productivity apps, Pomodoro timers, and goal-setting psycho
 - Includes:
   - ✅ Pomodoro timer per task
   - 🔋 Energy bar (fades if skipped, grows on completion)
-  - 📈 Progress bar (color-shift from green → yellow → red)
   - ✨ Motivational quote section and real-world stories on time
-  - 🏅 Badge generation and shareable milestones (e.g., 3-day streak)
 
 It’s built to be **minimalist, mobile-first**, and distraction-free.
 
@@ -38,9 +36,6 @@ It’s built to be **minimalist, mobile-first**, and distraction-free.
 - **UI/UX**:
   - Gamified elements: progress/energy bars, badge unlocks
   - Mobile-first design, with smooth transitions, hover animations
-- **Hosting**: [optional — e.g., Vercel or Netlify]
-- **No Login/Auth**: Anonymous, privacy-focused experience
-
 ---
 
 ## 🧗‍♂️ Challenges I ran into
@@ -49,7 +44,7 @@ It’s built to be **minimalist, mobile-first**, and distraction-free.
 - Ensuring **energy bar transitions** work across light/dark themes
 - Creating meaningful AI prompts to output usable daily roadmaps
 - Making Pomodoro timers work seamlessly per task
-- Avoiding bloat — keeping the experience focused and fast
+- Avoiding bloat - keeping the experience focused and fast
 
 ---
 
@@ -59,7 +54,7 @@ It’s built to be **minimalist, mobile-first**, and distraction-free.
 - Created a **clean and consistent color theme** for both light and dark mode
 - Integrated **AI-driven planning** in a motivational and non-robotic way
 - Designed the app to be **usable without login or distractions**
-- Every interaction — from sliders to badge animations — feels polished
+- Every interaction - from sliders to badge animations - feels polished
 
 ---
 
@@ -76,6 +71,7 @@ It’s built to be **minimalist, mobile-first**, and distraction-free.
 ## 🔮 What's next for Timarise
 
 - ✅ Add **local storage** for offline task tracking
+ - 🏅 Badge generation and shareable milestones (e.g., 3-day streak)
 - 🧠 Add **AI insights** from user progress (e.g., "You're behind on week 2, reschedule?")
 - 📆 Google Calendar / Notion sync
 - 📊 Export as PDF or Trello board
